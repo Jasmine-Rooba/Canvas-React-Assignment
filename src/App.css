@@ -1,0 +1,120 @@
+/* App.css */
+
+/* General styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Canvas styles */
+.canvas-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: scroll;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.add-card-button {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-card-button:hover {
+  background-color: #0056b3;
+}
+
+/* Draggable card styles */
+.draggable-card {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: move;
+}
+
+.draggable-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.show-more-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.show-more-button:hover {
+  background-color: #218838;
+}
+
+/* Modal styles */
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+.ReactModal__Content {
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: auto;
+}
+
+.modal-header {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.modal-content {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.modal-close-button {
+  margin-top: 20px;
+  padding: 8px 16px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-close-button:hover {
+  background-color: #c82333;
+}
+
+/* Resizable box styles */
+.react-resizable {
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.react-resizable-handle {
+  width: 20px;
+  height: 20px;
+  background-color: #ccc;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: se-resize;
+}
